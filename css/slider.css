@@ -1,0 +1,59 @@
+.client_logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel_custom {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+}
+
+.carousel__list {
+  position: absolute;
+  width: 200%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.carousel__item:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .carousel__item {
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+  }
+  .carousel__list {
+    width: 300%;
+  }
+}

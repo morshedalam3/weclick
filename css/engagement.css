@@ -1,0 +1,58 @@
+.engage-nav {
+  border-bottom: 3px solid #ecb43e;
+}
+section {
+  padding: 2rem 4rem;
+}
+.engage-hero-content {
+  text-align: center;
+  color: #ffffff;
+}
+.engage-hero-content img {
+  padding: 1rem 0;
+}
+.engage-hero-sec {
+  padding: 4rem 0;
+}
+.e-inner-padding {
+  padding: 2rem;
+}
+.e-inner-padding h1 {
+  padding-top: 1.5rem;
+}
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.team-manage {
+  background-color: #000000;
+}
+@media screen and (max-width: 912px) {
+  section {
+    padding: 2rem 1rem;
+  }
+  .e-inner-padding {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    padding: 2rem 1rem;
+  }
+  .engage-hero-sec {
+    padding: 0;
+  }
+  .e-inner-padding {
+    padding: 0;
+  }
+}

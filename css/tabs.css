@@ -1,0 +1,90 @@
+#ProductNav .nav,
+#ProductNav2 .nav {
+  display: inherit;
+  flex-wrap: inherit;
+  padding-left: inherit;
+  margin-bottom: inherit;
+  list-style: inherit;
+}
+.ProductNav_Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 3rem 6rem;
+  box-sizing: border-box;
+}
+.ProductNav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  position: relative;
+  font-size: 0;
+}
+.js .ProductNav {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.js .ProductNav::-webkit-scrollbar {
+  display: none;
+}
+.ProductNav_Contents {
+  float: left;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+.ProductNav_Contents-no-transition {
+  transition: none;
+}
+.ProductNav_Link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.85rem;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 8px 2rem;
+  line-height: 1.35;
+}
+.ProductNav_Link[aria-selected="true"] {
+  color: #ecb43e;
+}
+.Advancer {
+  /* Reset the button */
+  appearance: none;
+  background: transparent;
+  padding: 1rem;
+  border: 0;
+  top: 0;
+  bottom: 0;
+}
+.Advancer:focus {
+  outline: 0;
+}
+.Advancer:hover {
+  cursor: pointer;
+}
+.Advancer_Left {
+  left: 0;
+}
+[data-overflowing="left"] .Advancer_Left {
+  opacity: 1;
+}
+.Advancer_Right {
+  right: 0;
+}
+[data-overflowing="right"].Advancer_Right {
+  opacity: 1;
+}
+.Advancer_Icon {
+  max-width: 100%;
+}
+.ProductNav_Indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100px;
+  background-color: transparent;
+  transform-origin: 0 0;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}

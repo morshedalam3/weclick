@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>We Click</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/brand_logo/favicon.ico.png"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about-slider.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <section style="background: #000000">
+      <header class="header">
+        <nav class="navbar-1" id="main-nav">
+          <div class="brand-logo">
+            <a href="index.html">
+              <img src="./images/brand_logo/weclick logo.png" alt="" />
+            </a>
+          </div>
+          <ul class="nav-item-1">
+            <li><a href="aboutUs.html" class="about-nav">About Us</a></li>
+            <!-- <li><a href="#clients">Clients</a></li> -->
+            <li><a href="services.html">Services</a></li>
+            <li><a href="engagemnetmodal.html">Engagement Model</a></li>
+            <li>
+              <a href="contact_us.html" class="contact-nav">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <nav id="main-nav" class="navbar navbar-dark mobile-navbar">
+          <div class="d-flex justify-content-end">
+            <div class="brand-logo-mobile">
+              <a href="index.html">
+                <img src="./images/brand_logo/weclick logo.png" alt="" />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+
+          <div
+            class="d-flex justify-content-start"
+            style="margin-left: 0; text-align: start"
+          >
+            <div class="collapse navbar-collapse w-100" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="aboutUs.html"
+                    >About Us</a
+                  >
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link scroll-link" href="#clients">Clients</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="services.html"
+                    >Services</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link scroll-link" href="engagemnetmodal.html">
+                    Engagement Model</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link scroll-link" href="contact_us.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="border-bottom-nav"></div>
+      </header>
+    </section>
+    <section id="contact-us">
+      <div class="display-diriction">
+        <div class="section-col-6 contact-container" data-aos="fade-right">
+          <h5 style="color: #666666">Contact us</h5>
+          <br />
+          <!-- <h1>
+              Got a question?<br />
+              We’re here to help
+            </h1> -->
+          <!-- <p>
+              We are always up for coffee. Alternatively, we are happy to connect
+              over phone or email. We are available at <span style="color:#60B2FF">+91 9876543210</span><br class="brhide"/> and
+              <span style="color:#60B2FF">xyz@abc.com</span>
+            </p> -->
+          <form class="needs-validation" novalidate>
+            <div class="mb-3 form-group form-group-lg">
+              <label for="lg" class="control-label">Full name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                required
+              />
+              <div class="invalid-feedback">Please enter your full name</div>
+            </div>
+            <div class="mb-3">
+              <label for="lg" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="lg"
+                id="validationCustom01"
+                required
+              />
+              <div class="invalid-feedback">Please enter your valid email</div>
+            </div>
+            <div class="mb-3">
+              <label for="lg" class="form-label">Phone number</label>
+              <input
+                type="number"
+                class="form-control"
+                id="lg"
+                aria-describedby="emailHelp"
+                id="validationCustom01"
+                required
+              />
+              <div class="invalid-feedback">Please enter your number</div>
+            </div>
+            <div class="mb-3">
+              <label for="lg" class="form-label">Company</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                required
+              />
+              <div class="invalid-feedback">Please enter your company</div>
+            </div>
+            <!-- <div class="mb-3">
+                <label for="lg" class="form-label">What can we do for you</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  style="height: 6em"
+                  id="validationCustom01" required
+                />
+                <div class="invalid-feedback">
+                  Please write the answer details
+                </div>
+              </div> -->
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <div class="section-col-6 contact-img">
+          <div class="w-100" mar data-aos="flip-right">
+            <img
+              src="./images/brand_logo/office image.jpeg"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="row">
+          <!-- <div class="footer-col">
+                <div class="social-links">
+                  <ul>
+                    <li><h4>Get In Touch</h4></li>
+                    <li>
+                      <p class="footer-text">
+                        Trusted by over 70 lakh happy customers, Niva Bupa provides
+                        a wide range of health insurance plans to suit every need.
+                      </p>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/" target="_blank"><img src="./images/youtube.png" alt=""></i></a>
+                      <a href="https://www.facebook.com/" target="_blank"><img src="./images/fb.png" alt=""></a>
+                      <a href="https://www.instagram.com/"target="_blank"><img src="./images/insta.png" alt=""></i></a>
+                      <a href="https://twitter.com/"target="_blank"><img src="./images/twiter.png" alt=""></a>
+                      <a href="https://www.linkedin.com/"target="_blank"><img src="./images/liked in.png" alt=""></a>
+                    </li>
+                  </ul>
+                </div>
+              </div> -->
+          <!-- <div class="footer-col">
+                <ul>
+                  <li><h4>About Niva Bupa</h4></li>
+                  <li><a href="clients.html">About Us</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">We are hiring</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div> -->
+          <div class="footer-col">
+            <ul>
+              <!-- <li><h4>Resources</h4></li> -->
+              <li><a href="aboutUs.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="engagemnetmodal.html">Engagement Model</a></li>
+              <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <ul>
+              <!-- <li><h4>Features</h4></li> -->
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vST1yqZvzPnRQGv-5gzzHYQHuSlKJ2HQ1IBJEPu-Q6wyx2A5cr2NXkOklxLfWiSdA/pub
+                    "
+                  target="_blank"
+                  >Terms of Use</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vQR5AdmmPD3E3IF1Il7qqQqsrYFRv-QLvEG42_LqP2D8vZD7V3L-yCPqyxAotikxw/pub"
+                  target="_blank"
+                  >Privacy Policy</a
+                >
+              </li>
+
+              <!-- <li><a href="#">Live Chat</a></li>
+                  <li><a href="#">Unlimited Support</a></li> -->
+            </ul>
+          </div>
+          <!-- 6LeZk8UhAAAAAL_ilV0rliheyFnC5etz9EzDQbcl -->
+          <!-- site key -->
+          <!-- 6LeZk8UhAAAAALNmFHCw2KJGybedNPSQcUkrmHu8 -->
+        </div>
+        <div style="display: flex; justify-content: center">
+          <div class="copy-right">Copyright © Weclick. All Rights Reserved</div>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app/header.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1400,
+      });
+    </script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+      function toggleMenu() {
+        var menuBox = document.getElementById("menu-box");
+        if (menuBox.style.display == "block") {
+          menuBox.style.display = "none";
+        } else {
+          menuBox.style.display = "block";
+        }
+      }
+      // document.addEventListener("DOMContentLoaded", function () {
+      //   window.addEventListener("scroll", function () {
+      //     if (window.scrollY > 50) {
+      //       document.getElementById("main-nav").classList.add("fixed-top");
+      //       document.getElementById("main-nav").classList.add("bgheader");
+
+      //       // add padding top to show content behind navbar
+      //       navbar_height = document.querySelector(".navbar").offsetHeight;
+      //       document.body.style.paddingTop = navbar_height + "px";
+      //     } else {
+      //       document.getElementById("main-nav").classList.remove("fixed-top");
+      //       document.getElementById("main-nav").classList.remove("bgheader");
+      //       // remove padding top from body
+      //       document.body.style.paddingTop = "0";
+      //     }
+      //   });
+      // });
+
+      (function ($) {
+        "use strict";
+        // Auto-scroll
+        $("#myCarousel").carousel({
+          interval: 5000,
+        });
+
+        // Control buttons
+        $(".next").click(function () {
+          $(".carousel").carousel("next");
+          return false;
+        });
+        $(".prev").click(function () {
+          $(".carousel").carousel("prev");
+          return false;
+        });
+
+        // On carousel scroll
+        $("#myCarousel").on("slide.bs.carousel", function (e) {
+          var $e = $(e.relatedTarget);
+          var idx = $e.index();
+          var itemsPerSlide = 3;
+          var totalItems = $(".carousel-item").length;
+          if (idx >= totalItems - (itemsPerSlide - 1)) {
+            var it = itemsPerSlide - (totalItems - idx);
+            for (var i = 0; i < it; i++) {
+              // append slides to end
+              if (e.direction == "left") {
+                $(".carousel-item").eq(i).appendTo(".carousel-inner");
+              } else {
+                $(".carousel-item").eq(0).appendTo(".carousel-inner");
+              }
+            }
+          }
+        });
+      })(jQuery);
+
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName("needs-validation");
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(
+              forms,
+              function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (form.checkValidity() === false) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              }
+            );
+          },
+          false
+        );
+      })();
+    </script>
+    <!-- Tabs Js -->
+    <script>
+      const tabs = document.querySelectorAll("[data-tab-target]");
+      const tabContents = document.querySelectorAll("[data-tab-content]");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const target = document.querySelector(tab.dataset.tabTarget);
+          tabContents.forEach((tabContent) => {
+            tabContent.classList.remove("active");
+          });
+          tabs.forEach((tab) => {
+            tab.classList.remove("active");
+          });
+          tab.classList.add("active");
+          target.classList.add("active");
+        });
+      });
+    </script>
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>

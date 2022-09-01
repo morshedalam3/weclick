@@ -1,0 +1,82 @@
+.engagement-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel_custom2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__slider2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 245px;
+}
+
+.carousel__list2 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 248px;
+  height: 194px;
+  background: #000001;
+  border-radius: 8px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.carousel__item:hover {
+  transform: scale(1.1);
+}
+.slide-card {
+  background: #000000;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+.slide-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-card h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .carousel__item2 {
+    width: 248px;
+    height: 194px;
+    margin-right: 2rem;
+  }
+  .carousel__list2 {
+    width: 300%;
+  }
+}
